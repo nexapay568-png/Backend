@@ -1,0 +1,17 @@
+{
+  "name": "payx-backend",
+  "version": "1.0.0",
+  "description": "PayX STK push backend for Mobile Money collections",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "payx-node": "latest"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
